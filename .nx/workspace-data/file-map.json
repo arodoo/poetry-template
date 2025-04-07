@@ -1,0 +1,75 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.7.1",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {},
+    "nonProjectFiles": [
+      {
+        "file": ".gitignore",
+        "hash": "13404745306227114823"
+      },
+      {
+        "file": ".npmrc",
+        "hash": "10160565566637743515"
+      },
+      {
+        "file": "README.md",
+        "hash": "5210800550213411306"
+      },
+      {
+        "file": "apps/backend/api/src/app.module.ts",
+        "hash": "2839678914404901298"
+      },
+      {
+        "file": "apps/backend/api/src/infrastructure/config/database.config.ts",
+        "hash": "15982872799545626802"
+      },
+      {
+        "file": "apps/frontend/admin/src/styles.scss",
+        "hash": "15250616295385197064"
+      },
+      {
+        "file": "apps/frontend/customer/src/styles.scss",
+        "hash": "7627188902201365896"
+      },
+      {
+        "file": "apps/frontend/customer/tailwind.config.js",
+        "hash": "15451074367382381694"
+      },
+      {
+        "file": "docker-compose.yml",
+        "hash": "11123581903991726245"
+      },
+      {
+        "file": "infrastructure/docker/development/admin.Dockerfile",
+        "hash": "3727571134544295373"
+      },
+      {
+        "file": "infrastructure/docker/development/api.Dockerfile",
+        "hash": "3736155819849441227"
+      },
+      {
+        "file": "infrastructure/docker/development/customer.Dockerfile",
+        "hash": "17581076813490141511"
+      },
+      {
+        "file": "infrastructure/docker/development/nginx.conf",
+        "hash": "13829435947595511157"
+      },
+      {
+        "file": "nx.json",
+        "hash": "10250464854386277519"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "4673871797145852801"
+      },
+      {
+        "file": "package.json",
+        "hash": "15597698252546540786"
+      }
+    ]
+  }
+}

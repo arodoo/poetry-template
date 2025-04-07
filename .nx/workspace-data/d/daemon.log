@@ -1,0 +1,24 @@
+[NX v20.7.1 Daemon Server] - 2025-04-07T23:24:04.569Z - Started listening on: \\.\pipe\nx\C:\Users\haroe\AppData\Local\Temp\4204f653042b8b70cc2a\d.sock
+[NX v20.7.1 Daemon Server] - 2025-04-07T23:24:04.571Z - [WATCHER]: Subscribed to changes within: D:\zProyectos\NestJS\poetry-template (native)
+[NX v20.7.1 Daemon Server] - 2025-04-07T23:24:04.577Z - Established a connection. Number of open connections: 1
+[NX v20.7.1 Daemon Server] - 2025-04-07T23:24:04.579Z - Closed a connection. Number of open connections: 0
+[NX v20.7.1 Daemon Server] - 2025-04-07T23:24:04.579Z - Established a connection. Number of open connections: 1
+[NX v20.7.1 Daemon Server] - 2025-04-07T23:24:04.581Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX v20.7.1 Daemon Server] - 2025-04-07T23:24:04.584Z - Done responding to the client Shutdown initiated
+[NX v20.7.1 Daemon Server] - 2025-04-07T23:24:04.584Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 3.
+[NX v20.7.1 Daemon Server] - 2025-04-07T23:24:04.585Z - Closed a connection. Number of open connections: 0
+[NX v20.7.1 Daemon Server] - 2025-04-07T23:24:04.585Z - [WATCHER]: Stopping the watcher for D:\zProyectos\NestJS\poetry-template (sources)
+[NX v20.7.1 Daemon Server] - 2025-04-07T23:24:04.585Z - [WATCHER]: Stopping the watcher for D:\zProyectos\NestJS\poetry-template (outputs)
+[NX v20.7.1 Daemon Server] - 2025-04-07T23:24:04.585Z - Server stopped because: "Request to shutdown"
+[NX v20.7.1 Daemon Server] - 2025-04-07T23:26:32.279Z - Started listening on: \\.\pipe\nx\C:\Users\haroe\AppData\Local\Temp\4204f653042b8b70cc2a\d.sock
+[NX v20.7.1 Daemon Server] - 2025-04-07T23:26:32.282Z - [WATCHER]: Subscribed to changes within: D:\zProyectos\NestJS\poetry-template (native)
+[NX v20.7.1 Daemon Server] - 2025-04-07T23:26:32.289Z - Established a connection. Number of open connections: 1
+[NX v20.7.1 Daemon Server] - 2025-04-07T23:26:32.291Z - Closed a connection. Number of open connections: 0
+[NX v20.7.1 Daemon Server] - 2025-04-07T23:26:32.291Z - Established a connection. Number of open connections: 1
+[NX v20.7.1 Daemon Server] - 2025-04-07T23:26:32.293Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX v20.7.1 Daemon Server] - 2025-04-07T23:26:32.294Z - Done responding to the client Shutdown initiated
+[NX v20.7.1 Daemon Server] - 2025-04-07T23:26:32.294Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 1.
+[NX v20.7.1 Daemon Server] - 2025-04-07T23:26:32.294Z - Closed a connection. Number of open connections: 0
+[NX v20.7.1 Daemon Server] - 2025-04-07T23:26:32.295Z - [WATCHER]: Stopping the watcher for D:\zProyectos\NestJS\poetry-template (sources)
+[NX v20.7.1 Daemon Server] - 2025-04-07T23:26:32.295Z - [WATCHER]: Stopping the watcher for D:\zProyectos\NestJS\poetry-template (outputs)
+[NX v20.7.1 Daemon Server] - 2025-04-07T23:26:32.295Z - Server stopped because: "Request to shutdown"
