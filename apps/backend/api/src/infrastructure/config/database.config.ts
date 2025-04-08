@@ -30,7 +30,7 @@ export const getTypeOrmConfig = (): TypeOrmModuleOptions => {
         type: 'sqlite',
         database: process.env.DATABASE_NAME || 'db.sqlite',
         autoLoadEntities: true,
-      };
+      } as TypeOrmModuleOptions;
     case 'mysql':
     case 'mariadb':
       return {
@@ -42,7 +42,7 @@ export const getTypeOrmConfig = (): TypeOrmModuleOptions => {
         password: process.env.DATABASE_PASSWORD || '',
         database: process.env.DATABASE_NAME || 'poetry_saas',
         autoLoadEntities: true,
-      };
+      } as TypeOrmModuleOptions;
     case 'postgres':
     default:
       return {
@@ -54,6 +54,6 @@ export const getTypeOrmConfig = (): TypeOrmModuleOptions => {
         password: process.env.DATABASE_PASSWORD || 'postgres',
         database: process.env.DATABASE_NAME || 'poetry_saas',
         autoLoadEntities: true,
-      };
+      } as TypeOrmModuleOptions;
   }
 };
