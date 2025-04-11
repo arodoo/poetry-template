@@ -4,7 +4,6 @@
   "pathMappings": {},
   "nxJsonPlugins": [],
   "fileMap": {
-    "projectFileMap": {},
     "nonProjectFiles": [
       {
         "file": ".gitignore",
@@ -20,15 +19,87 @@
       },
       {
         "file": "apps/backend/api/src/app.module.ts",
-        "hash": "2839678914404901298"
+        "hash": "14075462319564130523"
+      },
+      {
+        "file": "apps/backend/api/src/app/app.service.ts",
+        "hash": "6289163304221557995"
+      },
+      {
+        "file": "apps/backend/api/src/assets/.gitkeep",
+        "hash": "14197137525912251729"
       },
       {
         "file": "apps/backend/api/src/infrastructure/config/database.config.ts",
-        "hash": "15982872799545626802"
+        "hash": "1069408925125995006"
+      },
+      {
+        "file": "apps/backend/api/src/main.ts",
+        "hash": "11001014073496290214"
+      },
+      {
+        "file": "apps/backend/api/src/modules/auth/auth.module.ts",
+        "hash": "13236021142569910480"
+      },
+      {
+        "file": "apps/backend/api/src/modules/tenants/tenants.module.ts",
+        "hash": "15138159318007578526"
+      },
+      {
+        "file": "apps/backend/api/src/modules/users/users.module.ts",
+        "hash": "12869584862852341582"
+      },
+      {
+        "file": "apps/backend/api/tsconfig.json",
+        "hash": "8492252659111256323"
+      },
+      {
+        "file": "apps/backend/api/webpack.config.js",
+        "hash": "10374149787794881269"
+      },
+      {
+        "file": "apps/frontend/admin/src/app/app.component.ts",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "apps/frontend/admin/src/app/app.module.ts",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "apps/frontend/admin/src/app/layout/components/footer/footer.component.ts",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "apps/frontend/admin/src/app/layout/components/header/header.component.ts",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "apps/frontend/admin/src/app/layout/components/layout/layout.component.ts",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "apps/frontend/admin/src/app/layout/components/sidebar/sidebar.component.ts",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "apps/frontend/admin/src/app/layout/layout.module.ts",
+        "hash": "3244421341483603138"
       },
       {
         "file": "apps/frontend/admin/src/styles.scss",
         "hash": "15250616295385197064"
+      },
+      {
+        "file": "apps/frontend/customer/src/app/app.component.ts",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "apps/frontend/customer/src/app/app.module.ts",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "apps/frontend/customer/src/app/layout/layout.module.ts",
+        "hash": "3244421341483603138"
       },
       {
         "file": "apps/frontend/customer/src/styles.scss",
@@ -44,15 +115,15 @@
       },
       {
         "file": "infrastructure/docker/development/admin.Dockerfile",
-        "hash": "3727571134544295373"
+        "hash": "1272476160452557100"
       },
       {
         "file": "infrastructure/docker/development/api.Dockerfile",
-        "hash": "3736155819849441227"
+        "hash": "11522216851219024178"
       },
       {
         "file": "infrastructure/docker/development/customer.Dockerfile",
-        "hash": "17581076813490141511"
+        "hash": "16307564689266397105"
       },
       {
         "file": "infrastructure/docker/development/nginx.conf",
@@ -60,16 +131,17 @@
       },
       {
         "file": "nx.json",
-        "hash": "10250464854386277519"
+        "hash": "5364097352347948448"
       },
       {
         "file": "package-lock.json",
-        "hash": "4673871797145852801"
+        "hash": "2527415603420809912"
       },
       {
         "file": "package.json",
-        "hash": "15597698252546540786"
+        "hash": "2600106479686137321"
       }
-    ]
+    ],
+    "projectFileMap": {}
   }
 }

@@ -22,3 +22,32 @@
 [NX v20.7.1 Daemon Server] - 2025-04-07T23:26:32.295Z - [WATCHER]: Stopping the watcher for D:\zProyectos\NestJS\poetry-template (sources)
 [NX v20.7.1 Daemon Server] - 2025-04-07T23:26:32.295Z - [WATCHER]: Stopping the watcher for D:\zProyectos\NestJS\poetry-template (outputs)
 [NX v20.7.1 Daemon Server] - 2025-04-07T23:26:32.295Z - Server stopped because: "Request to shutdown"
+[NX v20.7.1 Daemon Server] - 2025-04-11T15:33:11.700Z - Started listening on: \\.\pipe\nx\C:\Users\haroe\AppData\Local\Temp\4204f653042b8b70cc2a\d.sock
+[NX v20.7.1 Daemon Server] - 2025-04-11T15:33:11.703Z - [WATCHER]: Subscribed to changes within: D:\zProyectos\NestJS\poetry-template (native)
+[NX v20.7.1 Daemon Server] - 2025-04-11T15:33:11.707Z - Established a connection. Number of open connections: 1
+[NX v20.7.1 Daemon Server] - 2025-04-11T15:33:11.710Z - Closed a connection. Number of open connections: 0
+[NX v20.7.1 Daemon Server] - 2025-04-11T15:33:11.710Z - Established a connection. Number of open connections: 1
+[NX v20.7.1 Daemon Server] - 2025-04-11T15:33:11.712Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.7.1 Daemon Server] - 2025-04-11T15:33:11.735Z - Time taken for 'loadSpecifiedNxPlugins' 1.843500000000006ms
+[NX v20.7.1 Daemon Server] - 2025-04-11T15:33:12.013Z - Time taken for 'Load Nx Plugin: D:\zProyectos\NestJS\poetry-template\node_modules\nx\src\plugins\project-json\build-nodes\project-json' 298.3528ms
+[NX v20.7.1 Daemon Server] - 2025-04-11T15:33:12.014Z - Time taken for 'Load Nx Plugin: D:\zProyectos\NestJS\poetry-template\node_modules\nx\src\plugins\package-json' 299.3894ms
+[NX v20.7.1 Daemon Server] - 2025-04-11T15:33:12.030Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.7.1 Daemon Server] - 2025-04-11T15:33:12.030Z - [REQUEST]: 
+[NX v20.7.1 Daemon Server] - 2025-04-11T15:33:12.030Z - [REQUEST]: 
+[NX v20.7.1 Daemon Server] - 2025-04-11T15:33:12.034Z - Time taken for 'loadDefaultNxPlugins' 316.0233ms
+[NX v20.7.1 Daemon Server] - 2025-04-11T15:33:12.074Z - Time taken for 'build-project-configs' 26.172000000000025ms
+[NX v20.7.1 Daemon Server] - 2025-04-11T15:33:12.150Z - [SYNC]: collect registered sync generators
+[NX v20.7.1 Daemon Server] - 2025-04-11T15:33:12.151Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.7.1 Daemon Server] - 2025-04-11T15:33:12.152Z - Time taken for 'total for creating and serializing project graph' 438.4222ms
+[NX v20.7.1 Daemon Server] - 2025-04-11T15:33:12.153Z - Done responding to the client project-graph
+[NX v20.7.1 Daemon Server] - 2025-04-11T15:33:12.153Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 439. Response time: 2.
+[NX v20.7.1 Daemon Server] - 2025-04-11T15:33:12.207Z - Closed a connection. Number of open connections: 0
+[NX v20.7.1 Daemon Server] - 2025-04-11T15:35:14.663Z - Established a connection. Number of open connections: 1
+[NX v20.7.1 Daemon Server] - 2025-04-11T15:35:14.664Z - Closed a connection. Number of open connections: 0
+[NX v20.7.1 Daemon Server] - 2025-04-11T15:35:14.664Z - Established a connection. Number of open connections: 1
+[NX v20.7.1 Daemon Server] - 2025-04-11T15:35:14.667Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.7.1 Daemon Server] - 2025-04-11T15:35:14.667Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.7.1 Daemon Server] - 2025-04-11T15:35:14.668Z - Time taken for 'total for creating and serializing project graph' 0.3951000000088243ms
+[NX v20.7.1 Daemon Server] - 2025-04-11T15:35:14.670Z - Done responding to the client project-graph
+[NX v20.7.1 Daemon Server] - 2025-04-11T15:35:14.670Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX v20.7.1 Daemon Server] - 2025-04-11T15:35:14.690Z - Closed a connection. Number of open connections: 0

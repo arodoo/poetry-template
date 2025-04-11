@@ -8,25 +8,18 @@ RUN npm install
 
 COPY . .
 
-CMD ["npx", "nx", "serve", "admin", "--host=0.0.0.0", "--port=4300"]
+RUN npm run build
 
-FROM node:20-alpine AS builder
+FROM node:20-alpine AS production
 
 WORKDIR /app
 
+COPY --from=development /app/dist/apps/frontend/admin ./dist
+COPY --from=development /app/node_modules ./node_modules
 COPY package*.json ./
 
-RUN npm ci
+ENV NODE_ENV=production
 
-COPY . .
+EXPOSE 4300
 
-RUN npm run build admin
-
-FROM nginx:alpine AS production
-
-COPY --from=builder /app/dist/apps/frontend/admin /usr/share/nginx/html
-COPY infrastructure/docker/development/nginx.conf /etc/nginx/conf.d/default.conf
-
-EXPOSE 80
-
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["node", "dist/main.js"]

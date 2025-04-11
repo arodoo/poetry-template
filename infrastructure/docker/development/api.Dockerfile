@@ -8,7 +8,7 @@ RUN npm install
 
 COPY . .
 
-RUN npm run build api
+RUN npm run build
 
 FROM node:20-alpine AS production
 

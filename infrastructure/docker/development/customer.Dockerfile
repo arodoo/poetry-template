@@ -8,25 +8,18 @@ RUN npm install
 
 COPY . .
 
-CMD ["npx", "nx", "serve", "customer", "--host=0.0.0.0"]
+RUN npx nx build frontend-customer
 
-FROM node:20-alpine AS builder
+FROM node:20-alpine AS production
 
 WORKDIR /app
 
+COPY --from=development /app/dist/apps/frontend/customer ./dist
+COPY --from=development /app/node_modules ./node_modules
 COPY package*.json ./
 
-RUN npm ci
+ENV NODE_ENV=production
 
-COPY . .
+EXPOSE 4200
 
-RUN npm run build customer
-
-FROM nginx:alpine AS production
-
-COPY --from=builder /app/dist/apps/frontend/customer /usr/share/nginx/html
-COPY infrastructure/docker/development/nginx.conf /etc/nginx/conf.d/default.conf
-
-EXPOSE 80
-
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["node", "dist/main.js"]
