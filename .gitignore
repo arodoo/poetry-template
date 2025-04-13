@@ -1,1 +1,79 @@
-node_modules
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Compiled output
+dist/
+tmp/
+out-tsc/
+bazel-out/
+
+# Angular
+.angular/
+.sass-cache/
+connect.lock/
+coverage/
+libpeerconnection.log/
+typings/
+
+# NestJS
+.serverless/
+.webpack/
+
+# NX
+.nx/
+.nxignore
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Testing
+/coverage
+/.nyc_output
+
+# Environment
+#.env
+#.env.*
+!.env.example
+!.env.sample
+*.env.local
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Build tools
+.eslintcache
+.stylelintcache
+.rollup.cache
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Misc
+package-lock.json
+yarn.lock
+!yarn.lock # Uncomment if you're using Yarn and want to include the lock file
+**/public/workbox-*.js
+**/public/sw.js
+**/public/browser-builds/

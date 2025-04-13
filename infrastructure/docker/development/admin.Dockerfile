@@ -8,18 +8,18 @@ RUN npm install
 
 COPY . .
 
-RUN npm run build
+RUN npx nx build admin
 
-FROM node:20-alpine AS production
+FROM nginx:alpine AS production
 
-WORKDIR /app
+WORKDIR /usr/share/nginx/html
 
-COPY --from=development /app/dist/apps/frontend/admin ./dist
-COPY --from=development /app/node_modules ./node_modules
-COPY package*.json ./
+# Copy the built app from the development stage
+COPY --from=development /app/dist/apps/frontend/admin .
 
-ENV NODE_ENV=production
+# Copy nginx configuration
+COPY infrastructure/docker/development/admin-nginx.conf /etc/nginx/conf.d/default.conf
 
 EXPOSE 4300
 
-CMD ["node", "dist/main.js"]
+CMD ["nginx", "-g", "daemon off;"]

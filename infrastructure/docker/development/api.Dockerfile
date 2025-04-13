@@ -8,7 +8,7 @@ RUN npm install
 
 COPY . .
 
-RUN npm run build
+RUN npx nx build api
 
 FROM node:20-alpine AS production
 
