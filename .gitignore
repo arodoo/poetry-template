@@ -77,3 +77,33 @@ yarn.lock
 **/public/workbox-*.js
 **/public/sw.js
 **/public/browser-builds/
+
+# Logs
+logs/
+.nx/workspace-data/*/daemon.log
+.nx/daemon.log
+**/*daemon.log
+.nx/**/*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Backup files
+**/*.bak/
+*.bak
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Generated documentation
+/docs/api/generated/
+
+# Temporary files
+.temp/
+.tmp/
+
+# Local development overrides
+docker-compose.override.yml
