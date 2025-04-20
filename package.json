@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "license": "MIT",
   "scripts": {
-    "start": "nx serve",
+    "start:api": "nx serve api",
+    "start:customer": "nx serve frontend-customer",
+    "start:admin": "nx serve admin",
     "build": "nx build",
     "test": "nx test",
     "lint": "nx lint",
@@ -14,7 +16,6 @@
     "affected:test": "nx affected:test",
     "affected:lint": "nx affected:lint",
     "affected:e2e": "nx affected:e2e",
-    "start:dev": "nx serve api",
     "db:drop": "rm -f poetry.sqlite",
     "start:dev:windows": "set NODE_ENV=development && nx serve api",
     "format": "nx format:write",
