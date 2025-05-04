@@ -5,9 +5,12 @@ import {
   CreateDateColumn,
   UpdateDateColumn,
   BeforeInsert,
-  BeforeUpdate
+  BeforeUpdate,
+  ManyToMany,
+  JoinTable
 } from 'typeorm';
 import * as bcrypt from 'bcrypt';
+import { Role } from './role.entity';
 
 @Entity('users')
 export class User {
@@ -62,6 +65,14 @@ export class User {
   @UpdateDateColumn()
   updatedAt: Date;
 
+  @ManyToMany(() => Role, role => role.users)
+  @JoinTable({
+    name: 'user_roles',
+    joinColumn: { name: 'user_id', referencedColumnName: 'id' },
+    inverseJoinColumn: { name: 'role_id', referencedColumnName: 'id' }
+  })
+  roles: Role[];
+
   @BeforeInsert()
   @BeforeUpdate()
   async hashPassword() {
@@ -73,5 +84,16 @@ export class User {
 
   async validatePassword(password: string): Promise<boolean> {
     return bcrypt.compare(password, this.password);
+  }
+
+  // Helper methods for role-based access control
+  hasRole(roleName: string): boolean {
+    return this.roles?.some(role => role.name === roleName) ?? false;
+  }
+
+  hasPermission(permissionCode: string): boolean {
+    return this.roles?.some(role => 
+      role.permissions?.some(permission => permission.code === permissionCode)
+    ) ?? false;
   }
 }
